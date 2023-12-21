@@ -31,12 +31,13 @@ function App() {
   // The 'setlistStorage' function is provided to update the 'listStorage' state variable
   const [listStorage, setlistStorage] = useMMKVStorage('listStorage', storage, list);
   const [enter, setEnter] = React.useState("");
+
+  // Load stored data from MMKV when the component mounts
   useEffect(() => {
-    // Perform actions when 'listStorage' changes
     if (listStorage) {
-      console.dir(listStorage);
+      setList(listStorage);
     }
-  }, [listStorage])
+  }, []);
 
 
   // Defining a function 'handlePress' that will be executed when a certain event (e.g., button press) occurs
@@ -48,10 +49,14 @@ function App() {
       // Resetting the 'enter' state variable to an empty string, effectively clearing the text input
       setEnter("");
       //vider le Champ??
-
-
     }
   };
+
+  // Save 'list' to MMKV whenever it changes
+  useEffect(() => {
+    setlistStorage(list);  // Update 'listStorage' with the current value of 'list'
+  }, []);  // Run this effect only once when the component mounts (empty dependency array) ( Mounting Phase is when a component is being created and inserted into the DOM)
+
 
   return (
     <SafeAreaView>
