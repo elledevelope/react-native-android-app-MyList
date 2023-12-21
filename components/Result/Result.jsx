@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import TodoListContext from '../../TodoListContext.js';
+import { styleResult } from './styleResult.js';
 
 const Result = () => {
   // Accessing the TodoListContext using the useContext hook from the React library
@@ -10,10 +11,19 @@ const Result = () => {
 
     <FlatList
       data={todoListContext.list}
-      renderItem={({ item }) => <View><Text>{item}</Text></View>}
+      renderItem={({ item }) => {
+        return (
+          <View>
+            <Text style={styleResult}>
+              {item}</Text>
+          </View>
+        )
+      }}
       keyExtractor={item => item}
     >
     </FlatList>
+
+
 
     // <View>
     //   {/* Using map to iterate over 'list' array */}
