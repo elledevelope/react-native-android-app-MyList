@@ -43,6 +43,8 @@ function App() {
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
+        {/* // Providing the TodoListContext with values to be consumed by components within its scope
+        // The values include 'list', 'setList', 'enter', and 'setEnter' from the current component's state */}
         <TodoListContext.Provider value={{ list, setList, enter, setEnter }}>
           <View>
             <Title></Title>

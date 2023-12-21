@@ -17,7 +17,6 @@ const Champ = () => {
       // Setting the value prop to control the input's value, using the 'enter' state from the context
       // This ensures that the input reflects the current value of the 'enter' state in the context
       value={todoListContext.enter}
-
     >
     </TextInput>
   )
