@@ -67,6 +67,7 @@ Pour l'ouvrir dans votre virtual device (Android) :
 
     cd nom_de_votre_projet
     npm run android
+    npx react-native start
 
 Vous pouvez maintenant éditer le fichier app.tsx, créer de nouveaux components, etc.
 ## Deployment
