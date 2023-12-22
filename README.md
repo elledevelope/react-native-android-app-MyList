@@ -4,7 +4,7 @@
 
 ## Demo
 
-![MyList Demo](/img/demo-img-MyList.png)
+![MyList Demo](./img/demo-img-MyList.png)
 
 
 ## Overview
