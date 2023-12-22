@@ -1,79 +1,83 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mobile App: MyList 
 
-# Getting Started
+🚀 Welcome to my [**React Native**](https://reactnative.dev) project!
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Overview
 
-## Step 1: Start the Metro Server
+This project is a product of my exploration and learning journey in React Native. Developed as part of my study class, it showcases my hands-on experience with building mobile applications using this powerful framework.
+## Technologies Used
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **React Native:** Core framework for mobile app development.
+- **Android Studio:** Integrated development environment for Android app development.
+- **JavaScript:** Primary programming language for React Native development.
+- **Java Development Kit (JDK):** Version 17.0.9
+- **Node.js:** Plays a key role in handling various development tasks and automation within the React Native project.
+- **MMKV:** Key-value storage library for efficient data persistence in React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+## Features
 
-## Step 2: Start your Application
+- **Add and Remove Items:** Easily add new items to your list and remove them when they are completed.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- **Persistent Storage:** Utilizes MMKV for efficient and persistent storage, ensuring your list is saved even if you close the app.
 
-### For Android
+- **React Native:** Built with React Native, allowing you to run your list on both iOS and Android platforms.
+## How to Run
+1. To carry out this project, we will primarily need the Node.js ecosystem and its package manager NPM. Please visit the following address:
 
-```bash
-# using npm
-npm run android
+https://nodejs.org/en/download
 
-# OR using Yarn
-yarn android
-```
+Install the latest stable version without the Chocolatey option.
 
-### For iOS
+2. Next, install the latest version of Android Studio:
 
-```bash
-# using npm
-npm run ios
+https://developer.android.com/studio
 
-# OR using Yarn
-yarn ios
-```
+Accept all the licenses requested during installation and then launch it. When the "Welcome to Android Studio" window opens, open the "More Actions" menu and select "SDK Manager." This will allow you to install the corresponding version(s) of Android. Also, accept the license for the installed version.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+For the next step, go back to the opening window and, this time, select the "Virtual Device Manager" option from the "More Actions" menu. Delete the default emulator and create a new one corresponding to the previously installed Android version from the device of your choice.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+3. Install Java JDK version 17.0.9, which you can find at the following address:
+[jdk-17.0.9_windows-x64_bin.exe](https://www.oracle.com/fr/java/technologies/javase/jdk11-archive-downloads.html)
 
-## Step 3: Modifying your App
+4. To test and compile this project, you will need to edit the system environment variables (here in Windows 11). Follow these steps:
 
-Now that you have successfully run the app, let's modify it.
+    - Right-click on your Start menu.
+    - Select `System`.
+   -  Open `Advanced system settings`.
+    - Click on `Environment Variables...`
+    - In the `System Variables` window, click on `New`
+    - The first variable should be named `ANDROID_HOME` with the value `C:\Users\your_username\AppData\Local\Android\Sdk`.
+    - The second variable should be `JAVA_HOME` with the value `C:\Program Files\Java\jdk-17`.
+    - Finally, add a new entry to the Path variable: `C:\Users\your_username\AppData\Local\Android\Sdk\platform-tools`.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+5. Clone the repository: `git clone [https://github.com/elledevelope/React-native-MyList-android]`
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+6. Navigate to the project folder: `cd project-name`
 
-## Congratulations! :tada:
+7. Run the project: `npx react-native start`
+## Feedback
 
-You've successfully run and modified your React Native App. :partying_face:
+Feel free to explore the code and provide any feedback!
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## Author
 
-# Troubleshooting
+👋 Hello, I'm [@elledevelope](https://github.com/elledevelope/)
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- 🎓 Currently a student in web and mobile development.
+- 💻 Passionate about crafting digital experiences.
+- 🌱 Always seeking to learn and grow.
 
-# Learn More
+Let's connect! 📫 [elledevelope@gmail.com]
 
-To learn more about React Native, take a look at the following resources:
+## Documentation
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+[React Native](https://reactnative.dev)
+
+[Node.js](https://nodejs.org/en/download)
+
+[Android Studio](https://developer.android.com/studio)
+
+[Java JDK](https://www.oracle.com/fr/java/technologies/javase/jdk11-archive-downloads.html)
