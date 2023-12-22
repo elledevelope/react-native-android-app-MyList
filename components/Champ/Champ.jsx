@@ -8,7 +8,7 @@ const Champ = () => {
 
   return (
     <TextInput
-      placeholder="Nouvel Item"
+      placeholder="Enter Item"
       style={styleChamp}
       // Setting up the onChangeText prop to call a function when the text in the input changes
       // The function receives the updated text as 'text' and uses 'todoListContext.setEnter' to update the 'enter' state in the context with the new text

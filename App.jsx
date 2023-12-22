@@ -74,9 +74,7 @@ function App() {
         <TodoListContext.Provider value={{ list, setList, enter, setEnter, deleteItem }}>
           <View>
             <Title></Title>
-            <Text
-              style={styles.TaskStyle}
-            >Enter Item</Text>
+            {/* <Text style={styles.TaskStyle}>Enter Item</Text> */}
             <Champ></Champ>
             <Button
               style={styles.buttonStyle}
