@@ -78,7 +78,7 @@ function App() {
             <Champ></Champ>
             <Button
               style={styles.buttonStyle}
-              title='Ajouter'
+              title='Add to list'
               // color="darkblue"
               onPress={handlePress}
             ></Button>
