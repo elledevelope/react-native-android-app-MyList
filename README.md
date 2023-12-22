@@ -52,7 +52,7 @@ For the next step, go back to the opening window and, this time, select the "Vir
     - The second variable should be `JAVA_HOME` with the value `C:\Program Files\Java\jdk-17`.
     - Finally, add a new entry to the Path variable: `C:\Users\your_username\AppData\Local\Android\Sdk\platform-tools`.
 
-5. Clone the repository: `git clone [https://github.com/elledevelope/React-native-MyList-android]`
+5. Clone the repository: `git clone https://github.com/elledevelope/React-native-MyList-android`
 
 6. Navigate to the project folder: `cd project-name`
 
