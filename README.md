@@ -2,6 +2,11 @@
 
 🚀 Welcome to my [**React Native**](https://reactnative.dev) project!
 
+## Demo
+
+![MyList Demo](/img/demo-img-MyList.png)
+
+
 ## Overview
 
 This project is a product of my exploration and learning journey in React Native. Developed as part of my study class, it showcases my hands-on experience with building mobile applications using this powerful framework.
