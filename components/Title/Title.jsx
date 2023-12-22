@@ -4,7 +4,7 @@ import { monStyle } from './styleTitle.js'
 
 const Title = () => {
     return (
-        <Text style={monStyle.title} >TodoList</Text>
+        <Text style={monStyle.title} >MyList</Text>
     )
 }
 

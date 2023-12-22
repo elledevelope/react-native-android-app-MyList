@@ -1,24 +1,17 @@
 import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import TodoListContext from '../../TodoListContext.js';
-import { styleResult } from './styleResult.js';
+// import { styleResult } from './styleResult.js';
+import Item from '../Item/Item.jsx';
 
 const Result = () => {
   // Accessing the TodoListContext using the useContext hook from the React library
   const todoListContext = React.useContext(TodoListContext);
 
   return (
-
     <FlatList
       data={todoListContext.list}
-      renderItem={({ item }) => {
-        return (
-          <View>
-            <Text style={styleResult}>
-              {item}</Text>
-          </View>
-        )
-      }}
+      renderItem={({ item, index }) => <Item item={item} index={index}></Item>}
       keyExtractor={item => item}
     >
     </FlatList>
