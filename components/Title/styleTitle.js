@@ -4,5 +4,7 @@ export const monStyle = {
         fontWeight: '900',
         textAlign: 'center',
         margin: 30,
+        fontStyle: 'italic',
+        color: 'salmon'
     }
 }
