@@ -76,7 +76,7 @@ Feel free to explore the code and provide any feedback! 👇
 - 💻 Passionate about crafting digital experiences.
 - 🌱 Always seeking to learn and grow.
 
-Let's connect! 📫 [elledevelop@gmail.com]
+Let's connect! 📫 [elledevelope@gmail.com]
 
 ## Documentation
 
