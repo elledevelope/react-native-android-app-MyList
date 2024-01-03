@@ -62,16 +62,17 @@ For the next step, go back to the opening window and, this time, select the "Vir
 6. Navigate to the project folder: `cd project-name`
 
 7. Run the project: `npx react-native start`
+   
 ## Feedback
 
-Feel free to explore the code and provide any feedback!
+Feel free to explore the code and provide any feedback! 👇
 
 
 ## Author
 
 👋 Hello, I'm [@elledevelope](https://github.com/elledevelope/)
 
-- 🎓 Currently a student in web and mobile development.
+- 🎓 Currently a student in web and mobile development.r
 - 💻 Passionate about crafting digital experiences.
 - 🌱 Always seeking to learn and grow.
 
