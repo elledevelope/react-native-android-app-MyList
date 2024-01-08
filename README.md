@@ -1,10 +1,17 @@
 # Mobile App: MyList 
 
-🚀 Welcome to my [**React Native**](https://reactnative.dev) project!
+🚀 Welcome to my [**React Native**](https://reactnative.dev) project for Android 13!
 
-## Demo
+## Table of contents
 
-![MyList Demo](./img/demo-img-MyList.png)
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Screenshot](#screenshot)
+- [Features](#features)
+- [How to Run](#how-to-run)
+- [Feedback](#feedback)
+- [Author](#author)
+- [Documentation](#documentation)
 
 
 ## Overview
@@ -20,6 +27,11 @@ This project is a product of my exploration and learning journey in React Native
 - **MMKV:** Key-value storage library for efficient data persistence in React Native.
 
 
+## Screenshot
+
+![MyList Demo](./img/demo-img-MyList.png)
+
+
 
 ## Features
 
@@ -28,6 +40,8 @@ This project is a product of my exploration and learning journey in React Native
 - **Persistent Storage:** Utilizes MMKV for efficient and persistent storage, ensuring your list is saved even if you close the app.
 
 - **React Native:** Built with React Native, allowing you to run your list on both iOS and Android platforms.
+
+  
 ## How to Run
 1. To carry out this project, we will primarily need the Node.js ecosystem and its package manager NPM. Please visit the following address:
 
