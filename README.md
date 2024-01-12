@@ -1,6 +1,10 @@
-# Mobile App: MyList 
+# Mobile App: MyList ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  
 
-🚀 Welcome to my [**React Native**](https://reactnative.dev) project for Android 13!
+## Overview
+🚀 Welcome to my first React Native app for Android 13!
+
+This project is a product of my exploration and learning journey in React Native. Developed as part of my study class, it showcases my hands-on experience with building mobile applications using this powerful framework.
+
 
 ## Table of contents
 
@@ -10,27 +14,25 @@
 - [Features](#features)
 - [How to Run](#how-to-run)
 - [Feedback](#feedback)
+- [License](#license)
 - [Author](#author)
 - [Documentation](#documentation)
 
 
-## Overview
-
-This project is a product of my exploration and learning journey in React Native. Developed as part of my study class, it showcases my hands-on experience with building mobile applications using this powerful framework.
 ## Technologies Used
 
-- **React Native:** Core framework for mobile app development.
-- **Android Studio:** Integrated development environment for Android app development.
-- **JavaScript:** Primary programming language for React Native development.
+- ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) : Core framework for mobile app development.
+- ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) : Integrated development environment for Android app development.
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) : Primary programming language for React Native development.
+- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) : Plays a key role in handling various development tasks and automation within the React Native project.
 - **Java Development Kit (JDK):** Version 17.0.9
-- **Node.js:** Plays a key role in handling various development tasks and automation within the React Native project.
 - **MMKV:** Key-value storage library for efficient data persistence in React Native.
 
 
 ## Screenshot
-
-![MyList Demo](./img/demo-img-MyList.png)
-
+<p align="center">
+  <img alt="Hello world, I'm elledevelope" src="./img/demo-img-MyList.png" />
+</p>
 
 
 ## Features
@@ -76,6 +78,11 @@ For the next step, go back to the opening window and, this time, select the "Vir
 6. Navigate to the project folder: `cd project-name`
 
 7. Run the project: `npx react-native start`
+
+## License
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0--1.0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
    
 ## Feedback
 
